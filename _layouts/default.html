@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <nav class="navbar">
+    <a href="#" class="nav-logo">Mark59</a>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#downloads">Downloads</a></li>
+      <li><a href="#documentation">Documentation</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Banner -->
+  <header class="hero">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </header>
+
+  <!-- Page Sections -->
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <span class="footer-logo">Mark59</span><span class="footer-sep">|</span><span>© {{ site.time | date: "%Y" }} Mark59</span>
+  </footer>
+
+</body>
+</html>
