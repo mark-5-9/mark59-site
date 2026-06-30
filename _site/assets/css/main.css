@@ -149,5 +149,17 @@ footer .footer-logo {
 footer .footer-sep {
   color: #bbb;
 }
+footer .footer-attr {
+  color: #aaa;
+  font-size: 0.7rem;
+}
+footer .footer-attr a {
+  color: #aaa;
+  text-decoration: none;
+}
+footer .footer-attr a:hover {
+  color: #666;
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=main.css.map */
