@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "Canterbury";
-  src: url("/assets/fonts/Canterbury.ttf");
+  src: url("{{ '/assets/fonts/Canterbury.ttf' | relative_url }}");
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -38,7 +38,7 @@ a.nav-logo {
 }
 
 .hero {
-  background-image: url("/assets/images/mark59_banner_thin.png");
+  background-image: url("{{ '/assets/images/mark59_banner_thin.png' | relative_url }}");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
