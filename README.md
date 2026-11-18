@@ -230,7 +230,22 @@ footer { text-align: center; padding: 2rem; background: #f4f4f4; }
 
 ## Step 8 — Preview Locally
 
+Initial setup after pulling the existing repo locally,
+- perform Step 1 (pre-requisites - Ruby install)
+
 ```bash
+cd C:\gitrepo\mark-5-9\mark59-site
+gem install bundler
+bundle install
+bundle exec jekyll serve
+# Open http://localhost:4000
+```
+(Tip: Add --livereload at the end if you want the browser to automatically refresh whenever you save a file.)
+
+Once this setup is done,  just:
+
+```bash
+cd C:\gitrepo\mark-5-9\mark59-site
 bundle exec jekyll serve
 # Open http://localhost:4000
 ```
